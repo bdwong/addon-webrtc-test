@@ -1,0 +1,23 @@
+{
+  "name": "test-addon",
+  "version": "1.0.0",
+  "description": "test add-on creates an add-on for nodejs.",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "keywords": [
+    "test",
+    "add-on"
+  ],
+  "author": "Brian D. Wong",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "node-gyp": "^6.1.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^2.0.0"
+  }
+}
