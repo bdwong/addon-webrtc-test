@@ -1,5 +1,5 @@
 {
-  "name": "test-addon",
+  "name": "addon-webrtc-test",
   "version": "1.0.0",
   "description": "test add-on creates an add-on for nodejs.",
   "main": "index.js",
@@ -7,6 +7,10 @@
   "scripts": {
     "build": "node-gyp rebuild",
     "clean": "node-gyp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdwong/addon-webrtc-test.git"
   },
   "keywords": [
     "test",
@@ -18,6 +22,6 @@
     "node-gyp": "^6.1.0"
   },
   "dependencies": {
-    "node-addon-api": "^2.0.0"
+    "node-addon-api": "^3.0.0"
   }
 }
